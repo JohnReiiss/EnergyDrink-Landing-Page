@@ -85,3 +85,85 @@
 .item.active .title {
     animation: toActive 0.5s ease-in-out 1;
 }
+
+/* MEDIA QUERIES */
+@media (max-width: 1024px) {
+    .item .title {
+        font-size: 8rem;
+    }
+
+    .item .refri {
+        width: 500px;
+    }
+
+    .item .fruit {
+        width: 70%;
+        position: absolute;
+        top: 0;
+        z-index: 3;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    #prev,
+    #next {
+        width: 48px;
+        height: 48px;
+        font-size: large;
+    }
+}
+
+@media (max-width: 768px) {
+    .item .title {
+        font-size: 4rem;
+    }
+
+    .item .refri {
+        width: 200px;
+    }
+
+    .item .fruit {
+        width: 70%;
+        position: absolute;
+        top: 0;
+        z-index: 3;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    #prev,
+    #next {
+        width: 40px;
+        height: 40px;
+        font-size: large;
+    }
+}
+
+@media (max-width: 450px) {
+    .item .title {
+        font-size: 3rem;
+    }
+
+    .item .refri {
+        width: 160px;
+    }
+
+    .item .fruit {
+        width: 60%;
+        position: absolute;
+        top: 0;
+        z-index: 3;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    #prev,
+    #next {
+        width: 38px;
+        height: 38px;
+        font-size: large;
+    }
+}

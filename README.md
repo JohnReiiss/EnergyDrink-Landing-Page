@@ -15,7 +15,8 @@ A landing page do **Energy Drink** oferece:
 
 ![image](https://github.com/user-attachments/assets/efa2bb84-c97f-4800-bf3f-124bba06cbc7)
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/54d10ed0-5cc0-42c5-b470-d27b635bef3f)
+
 
 
 
